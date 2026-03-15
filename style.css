@@ -52,6 +52,12 @@ img{
     float: left;
 
 }
+.logo-img {
+    width: 100px;          /* largeur du logo */
+    height: 70px;         /* même hauteur pour garder le cercle */
+    border-radius: 70%;   /* transforme l'image en cercle */
+    object-fit: cover;    /* garde le logo proportionnel */
+}
 .menu ul li a{
     text-decoration: none;
     color: green;
