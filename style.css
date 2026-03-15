@@ -8,7 +8,7 @@ body{
  margin:0;
 padding:0;
 overflow-x: hidden;
-    background-image: url(pexels-pixabay-267885.jpg);
+   background-color: aqua;
     background-position:  center;
     background-size: 140% auto;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ img{
 }
 
 .logo{
-       font-size: 3em;       /* agrandit le texte du logo */
+       font-size: 2em;       /* agrandit le texte du logo */
     padding-left: 20px;
     padding-top: 10px;
     color: rgb(255, 123, 0);
