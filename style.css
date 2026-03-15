@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -305,4 +306,313 @@ section {
     font-weight: 200px;
     color:black;
    }
+=======
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    
+ 
+ background-position: center;
+    background-size: cover;
+    background-image: url(pexels-shawnreza-21120.jpg);
+    background-size: cover;
+
+    border-radius: 20px;
+
+}
+
+.main{
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color: rgb(255, 123, 0);
+    font-size: 45px;
+    font-family: Arial;
+    padding-left: 20px;
+    float:right ;
+    padding-top: 10px;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left:62px ;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: green;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: orangered;
+
+}
+.recherche{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+
+
+}
+.recherch{
+    font-family: 'Times New Roman';
+    width:200px ;
+height: 60px;
+background:none ;
+border:2px solid  rgb(255, 123, 0);
+margin-top:13px ;
+color:black ;
+border-right:none ;
+font-size: 15px;
+float: left;
+padding: 10px;
+border-bottom-left-radius:5px ;
+border-top-left-radius:5px ;
+}
+.btn{
+       width:100px ;
+height: 60px;
+background: rgb(255, 145, 0) ;
+border:2px solid  rgb(255, 123, 0);
+margin-top:13px ;
+color:black ;
+
+font-size: 15px;
+border-bottom-right-radius:5px ;
+border-bottom-right-radius:5px ;
+
+
+}
+.btn:focus{
+    outline: none;
+
+}
+.recherch:focus{
+     outline: none;
+
+}
+.content{
+    width:700px ;
+    height: auto;
+    margin:auto ;
+    color: black;
+    position: relative;
+
+}
+
+
+.content .cn{
+    width: 160px;
+ height: 40px;
+background:rgb(255, 136, 0);
+border:rgb(255, 115, 0);
+margin-bottom: 30px;
+margin-left: 45Px;
+font-size:18 px;
+border-radius: 50px;
+cursor: pointer;
+ transition: .4s ease;
+
+
+
+}
+.content .cn a{
+    text-decoration: none;
+    color:black;
+     transition: .3s ease;
+
+
+
+}
+.cn:hover{
+    background-color:rgb(0, 255, 115);
+}
+.content span{
+    color: black;
+    font-size: 25px;
+
+}
+.forme{
+    width: 250px;
+    height: 830px;
+    background: linear-gradient(to top,orangered,rgb(0, 0, 0));
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.forme h5{
+       width: 220px;
+
+
+color:rgb(255, 115, 0);
+margin-bottom: 30px;
+margin: 2px;
+font-size: 22px;
+background-color: aliceblue;
+font-family: sans-serif;
+text-align: center;
+border-radius: 10px;
+padding: 8px;
+
+}
+.forme input{
+    
+       width: 240px;
+            height:35px ;
+background:transparent;
+border-bottom:rgb(255, 115, 0)  ;
+border-top:none;
+border-right: none;
+border-left: none;
+color: aliceblue;
+margin-top:30px; 
+letter-spacing:1px ;
+font-size: 15px;
+font-family: sans-serif;
+
+
+
+}
+.forme :focus{
+    outline: none;
+
+}
+::placeholder{
+    color: aliceblue;
+    font-family: Arial;
+
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background:rgb(255, 115, 0) ;
+    border: none;
+    margin-top:30px ;
+    font-size:18px ;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+
+}
+.btnn:hover{
+    background: aliceblue ;
+    color: rgb(255, 115, 0);
+
+}
+.btnn a{
+    text-decoration: rgb(255, 115, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bold; 
+}
+.forme.link{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:17px ;
+    padding-top:20px ;
+    text-align: center;
+
+}
+.forme.link a{
+    text-decoration: none;
+    color: rgb(255, 115, 0);
+
+}
+.liw{
+    padding-top:15px ;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.fa-facebook{
+    font-size: 40px;
+    color: blue;
+
+}
+.fa-youtube{
+font-size: 40px;
+color:red ;
+}
+ .fa-instagram{
+    font-size: 40px;
+color:rgb(255, 0, 98) ;
+ }
+.fa-tiktok{
+      font-size: 40px;
+color:rgb(0, 255, 42) ;
+}
+.fa-snapchat{
+      font-size: 40px;
+color:rgb(229, 255, 0) ;
+}
+section {
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+ display: flex;
+    justify-content: space-between;
+}
+.row.close{
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+    .row.close h2{
+        margin-bottom: 20px;
+    }
+   .texte{
+    color: rgb(255, 115, 0);
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+
+
+   }
+   .titre{
+    font-weight: 200px;
+    color:black;
+   }
+>>>>>>> e1c3daf253419bc554fbffcd8fefb7e1b3699a6c
    
