@@ -6,24 +6,27 @@
 
 body {
     font-family: Arial, sans-serif;
-    overflow-x: hidden;
+    min-height: 100vh; /* écran complet */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("pexels-i-brahim-halil-degerli-3906062-12343288.jpg");
+    background-size: cover;
     background-position: center;
-    background-size: cover; /* mieux pour mobile */
     background-repeat: no-repeat;
     color: white;
-    text-align: center;
 }
 
-/* CONTENEUR */
+/* CONTENEUR PRINCIPAL */
 .main {
-    width: 100%;
+    text-align: center;
     padding: 20px;
+    width: 100%;
 }
 
 /* LOGO */
 .logo {
-    font-size: 1.8em; /* réduit pour mobile */
+    font-size: 1.8em;
     color: blue;
     border: 3px solid red;
     border-radius: 10px;
@@ -45,14 +48,27 @@ body {
     padding: 10px;
 }
 
-/* LISTE JOUEURS */
+/* JOUEURS */
 .players {
     margin-top: 20px;
-    font-size: 1.1em;
-    line-height: 1.8;
 }
 
-/* 📱 Responsive (écrans plus grands) */
+.players p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* 🎨 Couleurs différentes */
+.players p:nth-child(1) { color: red; }
+.players p:nth-child(2) { color: orange; }
+.players p:nth-child(3) { color: yellow; }
+.players p:nth-child(4) { color: green; }
+.players p:nth-child(5) { color: cyan; }
+.players p:nth-child(6) { color: pink; }
+.players p:nth-child(7) { color: lightblue; }
+.players p:nth-child(8) { color: gold; }
+
+/* 📱 Responsive */
 @media (min-width: 768px) {
     .logo {
         font-size: 3em;
@@ -62,7 +78,7 @@ body {
         font-size: 2em;
     }
 
-    .players {
-        font-size: 1.3em;
+    .players p {
+        font-size: 1.4em;
     }
 }
