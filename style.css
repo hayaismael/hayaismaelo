@@ -71,14 +71,14 @@ body {
 }
 
 /* 🎨 Couleurs différentes */
-.players p:nth-child(1) { color: red; }
-.players p:nth-child(2) { color: orange; }
-.players p:nth-child(3) { color: yellow; }
-.players p:nth-child(4) { color: green; }
+.players p:nth-child(1) { color:cyan; }
+.players p:nth-child(2) { color:cyan; }
+.players p:nth-child(3) { color:cyan; }
+.players p:nth-child(4) { color:cyan; }
 .players p:nth-child(5) { color: cyan; }
-.players p:nth-child(6) { color: pink; }
-.players p:nth-child(7) { color: lightblue; }
-.players p:nth-child(8) { color: gold; }
+.players p:nth-child(6) { color: cyan; }
+.players p:nth-child(7) { color:  cyan; }
+.players p:nth-child(8) { color: cyan; }
 
 /* 📱 Responsive */
 @media (min-width: 768px) {
