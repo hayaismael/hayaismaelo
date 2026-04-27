@@ -79,7 +79,7 @@ body {
 .players p:nth-child(6) { color: cyan; }
 .players p:nth-child(7) { color:  cyan; }
 .players p:nth-child(8) { color: cyan; }
-.players p:nth-child(9) { color:cyan; }
+
 /* 📱 Responsive */
 @media (min-width: 768px) {
     .logo {
