@@ -6,11 +6,11 @@
 
 body {
     font-family: Arial, sans-serif;
-    min-height: 100vh; /* écran complet */
+    min-height: 200vh; /* écran complet */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("pexels-i-brahim-halil-degerli-3906062-12343288.jpg");
+    background-image: url("pexels-vince-17866929.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,8 +64,8 @@ body {
     font-weight: bold;
 }
 .slogan {
-    position: absolute;
-    bottom: 20px;
+   color: rgb(255, 51, 0);
+    bottom: 100px;
     width: 100%;
     left: 0;
 }
@@ -88,10 +88,10 @@ body {
     }
 
     .p {
-        font-size: 2em;
+        font-size: 5em;
     }
 
     .players p {
-        font-size: 1.4em;
+        font-size: 3.4em;
     }
 }
