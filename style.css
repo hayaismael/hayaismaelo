@@ -82,7 +82,7 @@ body {
 .players p:nth-child(9) { color: cyan; }
 
 /* 📱 Responsive */
-@media (min-width: 800px) {
+@media (min-width: 600px) {
     .logo {
         font-size: 3em;
     }
