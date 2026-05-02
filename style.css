@@ -1,18 +1,25 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* IMPORTANT POUR MOBILE */
+html, body {
+    height: 100%;
+}
+
+/* BODY */
 body {
     font-family: Arial, sans-serif;
-    min-height: 100vh; /* écran complet */
+    min-height: 100dvh; /* 🔥 corrige le problème sur téléphone */
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url("pexels-gonzalo-acuna-166058093-10923061.jpg");
-    background-size: cover;
-    background-position: center;
+    background-size: cover;       /* remplit tout l'écran */
+    background-position: center;  /* centre l'image */
     background-repeat: no-repeat;
     color: white;
 }
@@ -57,31 +64,28 @@ body {
     font-size: 1.2em;
     margin: 5px 0;
 }
+
+/* SLOGAN (fusion corrigée) */
 .slogan {
     margin-top: 25px;
     font-size: 1.4em;
-    color: white;
     font-weight: bold;
-}
-.slogan {
-   color: rgb(255, 51, 0);
-    bottom: 100px;
+    color: rgb(255, 51, 0);
     width: 100%;
-    left: 0;
 }
 
 /* 🎨 Couleurs différentes */
-.players p:nth-child(1) { color:rgb(0, 255, 55); }
-.players p:nth-child(2) { color:rgb(0, 255, 13); }
-.players p:nth-child(3) { color:rgb(0, 255, 76); }
-.players p:nth-child(4) { color:rgb(0, 255, 0); }
+.players p:nth-child(1) { color: rgb(0, 255, 55); }
+.players p:nth-child(2) { color: rgb(0, 255, 13); }
+.players p:nth-child(3) { color: rgb(0, 255, 76); }
+.players p:nth-child(4) { color: rgb(0, 255, 0); }
 .players p:nth-child(5) { color: rgb(0, 255, 42); }
 .players p:nth-child(6) { color: rgb(30, 255, 0); }
-.players p:nth-child(7) { color:  rgb(43, 255, 0); }
+.players p:nth-child(7) { color: rgb(43, 255, 0); }
 .players p:nth-child(8) { color: rgb(0, 255, 21); }
 .players p:nth-child(9) { color: rgb(30, 255, 0); }
 
-/* 📱 Responsive */
+/* 📱 RESPONSIVE */
 @media (min-width: 200px) {
     .logo {
         font-size: 3em;
@@ -92,6 +96,6 @@ body {
     }
 
     .players p {
-        font-size: 5.4em;
+        font-size: 1.4em; /* corrigé (5.4em était trop grand) */
     }
 }
