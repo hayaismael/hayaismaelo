@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("pexels-vince-17866929.jpg");
+    background-image: url("pexels-gonzalo-acuna-166058093-10923061.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,18 +71,18 @@ body {
 }
 
 /* 🎨 Couleurs différentes */
-.players p:nth-child(1) { color:cyan; }
-.players p:nth-child(2) { color:cyan; }
-.players p:nth-child(3) { color:cyan; }
-.players p:nth-child(4) { color:cyan; }
-.players p:nth-child(5) { color: cyan; }
-.players p:nth-child(6) { color: cyan; }
-.players p:nth-child(7) { color:  cyan; }
-.players p:nth-child(8) { color: cyan; }
-.players p:nth-child(9) { color: cyan; }
+.players p:nth-child(1) { color:rgb(0, 255, 55); }
+.players p:nth-child(2) { color:rgb(0, 255, 13); }
+.players p:nth-child(3) { color:rgb(0, 255, 76); }
+.players p:nth-child(4) { color:rgb(0, 255, 0); }
+.players p:nth-child(5) { color: rgb(0, 255, 42); }
+.players p:nth-child(6) { color: rgb(30, 255, 0); }
+.players p:nth-child(7) { color:  rgb(43, 255, 0); }
+.players p:nth-child(8) { color: rgb(0, 255, 21); }
+.players p:nth-child(9) { color: rgb(30, 255, 0); }
 
 /* 📱 Responsive */
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     .logo {
         font-size: 3em;
     }
